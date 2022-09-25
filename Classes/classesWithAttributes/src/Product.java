@@ -1,11 +1,17 @@
 public class Product {
-        //attribute
+	  public Product()
+	  {
+		// constructor, main kisminda new ile cagirdigimiz fonksiyon
+	  }	
+
+           //attribute/field
         int _id;
         private String _name;
         private String _description;
         private double _price;
         private int _stockAmount;
-
+		
+		//encapsulation
         public int getId()
         {
                 return _id;
